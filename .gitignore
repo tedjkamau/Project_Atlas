@@ -1,0 +1,47 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.template
+!.env.*.template
+*.pem
+*.key
+secrets/
+
+# Editor and operating system files
+.codex/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local data and logs
+data/raw/
+data/processed/
+*.fit
+*.log
+logs/
+
+# Supabase local state
+supabase/.branches/
+supabase/.temp/
