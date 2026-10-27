@@ -104,8 +104,8 @@ Keep real credentials out of Git. Public Supabase values may be used by the web 
 - Ingestion: Python
 - Database and file storage: Supabase PostgreSQL and Storage
 - Garmin FIT processing: to be selected after the proof of concept
-<div align="center">
+
 
 One runner. Many data sources. One clearer view of the road to race day.
-</div>
+
 ```
